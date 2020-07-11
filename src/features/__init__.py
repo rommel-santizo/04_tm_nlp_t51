@@ -1,4 +1,4 @@
 import spacy
 
-
+# SPACY
 nlp = spacy.load('en_core_web_sm', disable=['parser', 'ner'])
