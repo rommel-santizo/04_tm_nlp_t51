@@ -8,11 +8,11 @@ from src.models.predict import predict
 app = FastAPI()
 
 
-@app.post('/train')
-async def train_model():
-    train()
-
-    return {'Result': 'model.pkl produced'}
+# @app.post('/train')
+# async def train_model():
+#     train()
+#
+#     return {'Result': 'model.pkl produced'}
 
 
 @app.get('/predict')
